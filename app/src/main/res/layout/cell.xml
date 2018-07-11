@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/systemWhiteColor"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:focusable="false"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+
+        android:theme="@style/checkBoxStyle" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.9"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/systemBlackColor" />
+
+
+</LinearLayout>
